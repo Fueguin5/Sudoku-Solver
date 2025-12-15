@@ -8,6 +8,8 @@
 
 This repository contains my implementation of a Sudoku solver designed to efficiently solve high-difficulty 9×9 Sudoku puzzles using backtracking and optimized search strategies. The solver was developed to tackle a hard difficulty LeetCode problem and achieved strong runtime performance relative to other solutions.
 
+This project intentionally focuses on **algorithmic correctness and performance** rather than user interface or extensibility.
+
 ---
 
 ## Features
@@ -16,6 +18,13 @@ This repository contains my implementation of a Sudoku solver designed to effici
 - Handles standard 9×9 puzzles
 - Optimized backtracking implementation with constraint checks
 - High runtime performance (98th percentile on the targeted problem)
+
+---
+
+## Technical Details
+
+- Language: C++
+- Approach: Backtracking with constraint checking and pruning
 
 ---
 
